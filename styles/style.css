@@ -8,7 +8,11 @@
 
 .header__logo {
     display: block;
-    width: 148px;
+    width: 135px;
+}
+
+.header__logo img {
+    display: block;
 }
 
 .header__links-list {
@@ -47,7 +51,7 @@
 .cover {
     position: relative;
     min-height: 757px;
-    padding: 165px 50px 50px;
+    padding: 155px 50px 50px;
     color: #fff;
     background-image: url("../images/cover.jpg");
     background-size: cover;
@@ -126,6 +130,10 @@
     text-align: right;
 }
 
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+
 .description {
     position: relative;
     z-index: 1;
@@ -133,7 +141,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    margin-top: 106px;
+    margin-top: 97px;
 }
 
 .cover__description-text {
